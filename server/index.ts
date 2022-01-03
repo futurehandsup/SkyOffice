@@ -45,7 +45,7 @@ gameServer.define(RoomType.CUSTOM, SkyOffice).enableRealtimeListing()
 app.use('/colyseus', monitor())
 
 
-app.use('/', express.static(path.resolve(__dirname, '../../client/build')));
+app.use('/', express.static(path.resolve(__dirname, '../../../client/build')));
 
 
 gameServer.listen(port)
