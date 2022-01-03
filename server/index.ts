@@ -11,7 +11,7 @@ import { SkyOffice } from './rooms/SkyOffice'
 
 import * as path from "path";
 
-const port = Number(process.env.PORT || 2567)
+const port = Number(2567)
 const app = express()
 
 app.use(cors())
